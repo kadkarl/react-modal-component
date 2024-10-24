@@ -1,0 +1,27 @@
+{
+  "name": "@studiokad/react-modal-component",
+  "version": "1.0.0",
+  "description": "Un simple modal component pour mon projet de formation",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/studiokad/react-modal-component.git"
+  },
+  "keywords": [
+    "\"react\"",
+    "\"modal\"",
+    "\"component\""
+  ],
+  "author": "Bendahmane Abdelkader",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/studiokad/react-modal-component/issues"
+  },
+  "homepage": "https://github.com/studiokad/react-modal-component#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}
