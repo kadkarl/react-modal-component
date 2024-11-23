@@ -1,11 +1,10 @@
-/* Modal.css */
 .modal-overlay {
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+  background: rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,6 +22,22 @@
   animation: fadeIn 0.3s ease-in-out;
 }
 
+.modal-container.default {
+  border-left: 5px solid #888;
+}
+
+.modal-container.success {
+  border-left: 5px solid #28a745;
+  background: #d4edda;
+  color: #155724;
+}
+
+.modal-container.danger {
+  border-left: 5px solid #dc3545;
+  background: #f8d7da;
+  color: #721c24;
+}
+
 .modal-header {
   display: flex;
   justify-content: space-between;
@@ -35,7 +50,6 @@
 .modal-header h2 {
   font-size: 20px;
   font-weight: bold;
-  color: #333;
   margin: 0;
 }
 
@@ -54,7 +68,6 @@
 
 .modal-content {
   font-size: 16px;
-  color: #555;
   line-height: 1.5;
 }
 
