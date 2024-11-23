@@ -1,5 +1,6 @@
 import React from "react";
-import { render, screen, fireEvent } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
+import userEvent from "@testing-library/user-event";
 import "@testing-library/jest-dom/extend-expect";
 import Modal from "../Modal";
 
@@ -22,14 +23,15 @@ describe("Modal Component", () => {
     expect(screen.queryByText("Modal Content")).not.toBeInTheDocument();
   });
 
-  test("calls onClose when close button is clicked", () => {
+  test("calls onClose when X button is clicked", async () => {
     const onClose = jest.fn();
     render(
       <Modal isOpen={true} title="Test Modal" onClose={onClose}>
         <p>Modal Content</p>
       </Modal>
     );
-    fireEvent.click(screen.getByText("Close"));
+
+    await userEvent.click(screen.getByText("X"));
     expect(onClose).toHaveBeenCalledTimes(1);
   });
 });
