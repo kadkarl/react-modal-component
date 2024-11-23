@@ -1,6 +1,6 @@
 {
   "name": "@studiokad/react-modal-component",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Un simple modal component pour mon projet de formation",
   "main": "dist/index.js",
   "scripts": {
