@@ -35,4 +35,4 @@ npm test
 Ce projet est sous licence MIT.
 
 📧 Support
-Si vous avez des questions ou des suggestions, n'hésitez pas à ouvrir une issue ou à me contacter via [Link Text](#GitHub).
+Si vous avez des questions ou des suggestions, n'hésitez pas à ouvrir une issue ou à me contacter via [Support](#GitHub).
