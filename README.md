@@ -1,7 +1,8 @@
 # React Modal Component
 
-[![npm version](https://badge.fury.io/js/react-modal-component.svg)](https://www.npmjs.com/package/react-modal-component)
+[![npm version](https://badge.fury.io/js/react-modal-component.svg)](https://www.npmjs.com/package/kad-react-modal-component)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![npm](https://img.shields.io/npm/v/@studiokad/kad-react-modal-component)
 
 React Modal Component est une bibliothèque légère et simple pour intégrer des modales personnalisées dans vos projets React. Ce composant est entièrement configurable et facile à utiliser.
 
@@ -16,13 +17,13 @@ React Modal Component est une bibliothèque légère et simple pour intégrer de
 Installez le package via npm ou yarn :
 
 ```bash
-npm install react-modal-component
+npm install @studiokad/kad-react-modal-component
 ```
 
 ou
 
 ```bash
-yarn add react-modal-component
+yarn add @studiokad/kad-react-modal-component
 ```
 
 ## 🧪 Tests
@@ -76,7 +77,7 @@ export default App;
 Si vous souhaitez contribuer ou modifier le package, clonez ce dépôt :
 
 ```bash
-git clone https://github.com/studiokad/react-modal-component.git
+git clone https://github.com/studiokad/kad-react-modal-component.git
 ```
 
 ## 📄 Licence

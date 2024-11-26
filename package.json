@@ -1,15 +1,16 @@
 {
-  "name": "@studiokad/react-modal-component",
-  "version": "1.2.2",
+  "name": "@studiokad/kad-react-modal-component",
+  "version": "1.0.1",
   "description": "Un simple modal component pour mon projet de formation",
   "main": "dist/index.js",
+  "private": false,
   "scripts": {
     "test": "jest --config jest.config.js",
     "build": "babel src --out-dir dist --presets @babel/preset-env,@babel/preset-react && cp src/Modal.css dist/Modal.css"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/studiokad/react-modal-component.git"
+    "url": "git+https://github.com/studiokad/kad-react-modal-component.git"
   },
   "keywords": [
     "\"react\"",
@@ -42,9 +43,9 @@
     "webpack-cli": "^4.0.0"
   },
   "bugs": {
-    "url": "https://github.com/studiokad/react-modal-component/issues"
+    "url": "https://github.com/studiokad/kad-react-modal-component/issues"
   },
-  "homepage": "https://github.com/studiokad/react-modal-component#readme",
+  "homepage": "https://github.com/studiokad/kad-react-modal-component#readme",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   }
