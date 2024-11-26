@@ -79,8 +79,10 @@ Si vous souhaitez contribuer ou modifier le package, clonez ce dépôt :
 git clone https://github.com/studiokad/react-modal-component.git
 ```
 
-📄 Licence
+## 📄 Licence
+
 Ce projet est sous licence MIT.
 
-📧 Support
+## 📧 Support
+
 Si vous avez des questions ou des suggestions, n'hésitez pas à ouvrir une issue ou à me contacter via [Support](#GitHub).
